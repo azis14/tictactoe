@@ -62,7 +62,7 @@ $(document).ready(function() {
             $("#game li").removeClass('x');
             $("#game li").removeClass('btn-primary');
             $("#game li").removeClass('btn-info');
-        } else if (count == scale * scale) {
+        } else if (count == scale * scale - 1) {
             alert('Its a tie. It will restart.');
             $("#game li").text("+");
             $("#game li").removeClass('disable');
